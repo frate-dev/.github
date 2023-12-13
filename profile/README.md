@@ -1,12 +1,24 @@
-## Hi there 👋
+## Frate Package Manager 📦 & Project Templating System 📐 **In Alpha**
 
-<!--
+For many years C/C++ developers have fought with build system after build system with promises of simplicity and the ability to scale your project to any scale. We aim to create a ecosystem that values **actual simplicity** while also having the ability to maintain compatiablility with any editor/IDE which supports CMake. While there are times in C/C++ where you need fine grained control over your project, we don't take this away, we simply extend it.
 
-**Here are some ideas to get you started:**
+### Our template system
+We provide default project templates which once you create a new project, which you can extend with the power of lua. Once a project is initialized it renders template files to your project. Then you run the project, **at this point, there is no need to modify the CMakeList.txt or Makefile** . But if need be you do have the ability to modify your cmake template in templates/CMakeLists.txt.inja.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+### Our package manager
+The package manager side of this project allows you to manage dependecies in the same way tools like _cargo_ or _npm_
+
+`frate add p SDL2`
+or
+`frate add p cxxopts`
+
+This manages the linking of targets automatically so you can simply run `frate run` to begin building the dependecies
+
+more information can be found at [Frate Official Docs](https://docs.frate.dev)
+
+
+
+
+
+
+
