@@ -16,6 +16,11 @@ This manages the linking of targets automatically so you can simply run `frate r
 
 more information can be found at [Frate Official Docs](https://docs.frate.dev)
 
+Other orgs 
+- [Frate Templates](https://github.com/frate-templates)
+- [Frate Packages](https://github.com/frate-packages)
+
+
 
 
 
